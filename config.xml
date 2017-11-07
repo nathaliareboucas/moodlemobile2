@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" id="br.edu.unicatolicaquixada" version="1.0">
-<<<<<<< HEAD
+
   <name>AVA Unicatólica</name>
-  <description>&#xD;
-        Ambiente Virtual de Aprendizagem - Unicatólica Quixadá&#xD;
+  <description>
+        Ambiente Virtual de Aprendizagem - Unicatólica Quixadá
     </description>
-  <author href="http://ead.fcrs.edu.br/" email="nead@unicatolicaquixada.edu.br">&#xD;
-        CEAD Unicatólica team&#xD;
+  <author href="http://avaead.fcrs.edu.br/" email="cead@unicatolicaquixada.edu.br">
+        CEAD Unicatólica team
     </author>
   <content src="index.html"/>
   <access origin="*"/>
@@ -88,12 +88,11 @@
   </platform>
   <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
 </widget>
-=======
     <name>AVA Unicatólica</name>
     <description>
         Ambiente Virtual de Aprendizagem - Unicatólica Quixadá
     </description>
-    <author href="http://ead.fcrs.edu.br/" email="nead@unicatolicaquixada.edu.br">
+    <author href="http://avaead.fcrs.edu.br/" email="cead@unicatolicaquixada.edu.br">
         CEAD Unicatólica team
     </author>
     <content src="index.html"/>
@@ -176,4 +175,3 @@
     </platform>
     <icon src="resources/ios/icon/icon-small@3x.png"/>
 </widget>
->>>>>>> origin/avamobileunicatolica
