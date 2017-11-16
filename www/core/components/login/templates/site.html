@@ -12,7 +12,7 @@
         <ion-radio ng-model = "siteurl" ng-value = "'http://ava.fcrs.edu.br/portal3'">AVA Presencial</ion-radio>
         <ion-radio ng-model = "siteurl" ng-value = "'http://avaead.fcrs.edu.br/ead'">AVA EAD</ion-radio>
         <div>
-          <input type="url" style="visibility:hidden" placeholder="{{ 'mm.login.siteaddress' | translate }}" ng-model="siteurl" mm-no-input-validation mm-auto-focus >
+          <input type="url" style="visibility:hidden" placeholder="{{ 'mm.login.siteaddress' | translate }}" ng-model="siteurl" mm-no-input-validation>
         </div>
         <button class="button button-block button-positive" ng-click="connect(siteurl)" ng-disabled="!siteurl">{{ 'mm.login.connect' | translate }}</button>
       </div>
