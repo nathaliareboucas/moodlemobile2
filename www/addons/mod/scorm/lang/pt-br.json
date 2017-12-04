@@ -15,9 +15,9 @@
     "errordownloadscorm": "Erro baixar SCORM: \"{{name}}\".",
     "errorgetscorm": "Erro ao obter dados SCORM.",
     "errorinvalidversion": "Infelizmente, o aplicativo só suporta SCORM 1.2.",
-    "errornotdownloadable": "O download de pacotes SCORM está desabilitado no seu site Moodle. Por favor, contate o administrador do site Moodle.",
+    "errornotdownloadable": "O download de pacotes SCORM está desabilitado no seu AVA. Por favor, contate o administrador.",
     "errornovalidsco": "Este SCORM não tem um SCO visível para carregar.",
-    "errorpackagefile": "Infelizmente, o aplicativo suporta apenas pacotes ZIP.",
+    "errorpackagefile": "Apenas pacotes ZIP suportados.",
     "errorsyncscorm": "Ocorreu um erro ao sincronizar. Por favor, tente novamente.",
     "exceededmaxattempts": "Você atingiu a número máximo de tentativas.",
     "failed": "Falhou",
@@ -47,5 +47,5 @@
     "scormstatusoutdated": "Este SCORM foi modificado desde o último download. Ele será baixado automaticamente quando você abri-lo.",
     "suspended": "Suspenso",
     "warningofflinedatadeleted": "Alguns dados off-line da tentativa {{number}} foram excluídas porque ele não pôde ser criado em uma nova tentativa.",
-    "warningsynconlineincomplete": "Algumas tentativas não poderiam ser sincronizadas com o site porque a última tentativa não foi finalizada. Por favor termine a tentativa online primeiro."
+    "warningsynconlineincomplete": "Algumas tentativas não poderiam ser sincronizadas com o AVA porque a última tentativa não foi finalizada. Por favor termine a tentativa online primeiro."
 }

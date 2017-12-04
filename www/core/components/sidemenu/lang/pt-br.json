@@ -1,9 +1,9 @@
 {
     "appsettings": "Configurações do aplicativo",
-    "changesite": "Mudar site",
+    "changesite": "Mudar AVA",
     "help": "Ajuda",
     "logout": "Sair",
     "mycourses": "Meus cursos",
     "togglemenu": "Alternar menu",
-    "website": "Site"
+    "website": "Abrir no navegador"
 }

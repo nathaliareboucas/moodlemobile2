@@ -4,13 +4,38 @@
             <li class="item">
                 <h2>{{appname}} {{versionname}}</h2>
             </li>
+            <li class="item item-text-wrap">
+                <p class="item-heading">Centro Universitário Católica de Quixadá</p>
+            </li>
+            <li class="item item-text-wrap">
+                <p class="item-heading">Setor responsável</p>
+                <p>Coordenação de Educação a Distância - CEAD</p>
+            </li>
+            <!-- <li class="item item-text-wrap" ng-if="versionname">
+                <p class="item-heading">{{ 'mm.settings.versionname' | translate}}</p>
+                <p>{{ versionname }}</p>
+            </li>-->
+            <li class="item item-text-wrap" ng-if="versioncode">
+                <p class="item-heading">Data da versão</p>
+                <p>01.12.2017</p>
+            </li>
             <li class="item item-divider">
+                <p>Suporte</p>
+            </li>
+            <li class="item item-text-wrap" ng-if="versioncode">
+                <p>E-mail: <a href="mailto:cead@unicatolicaquixada.edu.br">cead@unicatolicaquixada.edu.br</a></p>
+                <p>Telefone: <a href="tel:8834126701">(88) 3412.6701</a></p>
+                <p>Whatsapp: <a href="tel:88997930373">(88) 9 9793.0373</a></p>
+
+            </li>
+
+            <!-- <li class="item item-divider">
                 <p>{{ 'mm.settings.license' | translate }}</p>
             </li>
             <li class="item item-text-wrap">
                 <h2>Apache 2.0</h2>
                 <p><a href="http://www.apache.org/licenses/LICENSE-2.0" mm-link auto-login="no">http://www.apache.org/licenses/LICENSE-2.0</a></p>
-            </li>
+            </li> -->
             <li class="item item-divider" ng-if="privacyPolicy">
                 <p>{{ 'mm.settings.privacypolicy' | translate }}</p>
             </li>
@@ -20,15 +45,9 @@
             <li class="item item-divider">
                 <p>{{ 'mm.settings.deviceinfo' | translate }}</p>
             </li>
-            <li class="item item-text-wrap" ng-if="versionname">
-                <p class="item-heading">{{ 'mm.settings.versionname' | translate}}</p>
-                <p>{{ versionname }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="versioncode">
-                <p class="item-heading">{{ 'mm.settings.versioncode' | translate}}</p>
-                <p>{{ versioncode }}</p>
-            </li>
-            <li class="item item-text-wrap" ng-if="filesystemroot">
+
+
+            <!-- <li class="item item-text-wrap" ng-if="filesystemroot">
                 <p class="item-heading">{{ 'mm.settings.filesystemroot' | translate}}</p>
                 <p><a ng-if="fsclickable" ng-href="{{filesystemroot}}" mm-link auto-login="no">{{ filesystemroot }}</a></p>
                 <p ng-if="!fsclickable">{{ filesystemroot }}</p>
@@ -56,12 +75,12 @@
             <li class="item item-text-wrap" ng-if="deviceos">
                 <p class="item-heading">{{ 'mm.settings.deviceos' | translate}}</p>
                 <p>{{ deviceos | translate }}</p>
-            </li>
+            </li> -->
             <li class="item item-text-wrap" ng-if="currentlanguage">
                 <p class="item-heading">{{ 'mm.settings.currentlanguage' | translate}}</p>
                 <p>{{ currentlanguage }}</p>
             </li>
-            <li class="item item-text-wrap" ng-if="networkstatus">
+            <!-- <li class="item item-text-wrap" ng-if="networkstatus">
                 <p class="item-heading">{{ 'mm.settings.networkstatus' | translate}}</p>
                 <p>{{ networkstatus | translate }}</p>
             </li>
@@ -96,7 +115,7 @@
             <li class="item item-text-wrap" ng-if="storagetype">
                 <p class="item-heading">{{ 'mm.settings.storagetype' | translate}}</p>
                 <p>{{ storagetype }}</p>
-            </li>
+            </li> -->
             <li class="item item-text-wrap" ng-if="localnotifavailable">
                 <p class="item-heading">{{ 'mm.settings.localnotifavailable' | translate}}</p>
                 <p>{{ localnotifavailable | translate }}</p>

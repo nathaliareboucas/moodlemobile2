@@ -14,7 +14,7 @@
 
         <p class="mm-big" ng-if="isDisabledInSite">{{ 'mm.course.activitydisabled' | translate }}</p>
         <p class="mm-big" ng-if="!isDisabledInSite && !isSupportedByTheApp && !isContributedPlugin">{{ 'mm.course.activitynotyetviewableinapp' | translate:{$a: moduleName} }}</p>
-        <p class="mm-big" ng-if="!isDisabledInSite && isSupportedByTheApp && !isContributedPlugin">{{ 'mm.course.activitynotyetviewablesiteupgradeneeded' | translate }}</p>
+        <!-- <p class="mm-big" ng-if="!isDisabledInSite && isSupportedByTheApp && !isContributedPlugin">{{ 'mm.course.activitynotyetviewablesiteupgradeneeded' | translate }}</p> -->
         <p class="mm-big" ng-if="!isDisabledInSite && !isSupportedByTheApp && isContributedPlugin">{{ 'mm.course.activitynotyetviewableremoteaddon' | translate }}</p>
         <p ng-if="isDisabledInSite || (!isSupportedByTheApp && isContributedPlugin)"><strong>{{ 'mm.course.askadmintosupport' | translate }}</strong></p>
 

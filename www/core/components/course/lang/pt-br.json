@@ -1,10 +1,10 @@
 {
-    "activitydisabled": "Sua organização desativou essa atividade no aplicativo para dispositivos móveis.",
+    "activitydisabled": "Essa atividade está desativada no aplicativo para dispositivos móveis.",
     "activitynotyetviewableinapp": "Estamos trabalhando para dar suporte a atividade {{$a}}.",
-    "activitynotyetviewableremoteaddon": "Sua organização instalou um plugin que não é suportado ainda.",
-    "activitynotyetviewablesiteupgradeneeded": "O Moodle de sua organização precisa ser atualizado.",
+    "activitynotyetviewableremoteaddon": "Contém um plugin que não é suportado ainda.",
+    "activitynotyetviewablesiteupgradeneeded": "Entre em contato com o suporte.",
     "allsections": "Todas as seções",
-    "askadmintosupport": "Contate o administrador do site e diga que você deseja usar essa atividade no aplicativo Moodle Mobile.",
+    "askadmintosupport": "Contate o administrador do AVA e diga que você deseja usar essa atividade no aplicativo AVA Mobile.",
     "confirmdeletemodulefiles": "Você tem certeza que quer excluir esse modulo arquivos?",
     "confirmdownload": "Você está prestes a baixar {{size}}. Você tem certeza que quer continuar?",
     "confirmdownloadunknownsize": "Não fomos capazes de calcular o tamanho do download. Tem certeza de que deseja fazer o download?",
@@ -18,5 +18,5 @@
     "nocontentavailable": "Nenhum conteúdo disponível nesse momento.",
     "overriddennotice": "Sua nota final para esta atividade foi ajustada manualmente.",
     "showall": "Mostrar todos",
-    "useactivityonbrowser": "Você ainda pode usar isso no navegador do seu dispositivo"
+    "useactivityonbrowser": "Este recurso só pode ser aberto pelo navegador. Qualquer dúvida entre em contato com a Coordenação de Educação a Distância (CEAD) pelo e-mail: cead@unicatolicaquixada.edu.br"
 }
